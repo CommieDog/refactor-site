@@ -30,6 +30,8 @@ header {
 */
 .horiseon-seo-emphasized {
     color: #d9dcd6;
+    font-weight: 100;
+    font-style: normal;
 }
 
 header h1 {
