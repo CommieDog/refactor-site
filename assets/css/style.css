@@ -51,13 +51,14 @@ p {
     font-size: 16px;
 }
 
-.hero {
+#leading-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    border-style: none;
 }
 
 #services {
@@ -83,6 +84,7 @@ p {
 .service img {
     max-height: 200px;
 }
+
  /* Class selectors that determine which side of the service box that the image should be floated on */
 .float-right {
     float: right;
