@@ -20,7 +20,10 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+/*
+    Special formatting for the "SEO" pun in "Horiseon"
+*/
+.horiseon-seo-emphasized {
     color: #d9dcd6;
 }
 
