@@ -22,12 +22,13 @@ header h1 {
 
 /*
     Special formatting for the "SEO" pun in "Horiseon"
+    Class selector used as this may be used elsewhere on the webpage
 */
 .horiseon-seo-emphasized {
     color: #d9dcd6;
 }
 
-header ul {
+#nav-bar {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,9 +37,9 @@ header ul {
     list-style-type: none;
 }
 
-header ul li {
-    display: inline-block;
+#nav-bar li {
     margin-left: 25px;
+    display: inline-block;
 }
 
 a {
