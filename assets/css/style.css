@@ -1,9 +1,17 @@
+/* 
+    Universal selector
+    Sets default attributes for all elements
+ */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*
+    Body selector
+    Sets background color for areas with no element
+*/
 body {
     background-color: #d9dcd6;
 }
@@ -13,24 +21,33 @@ a {
     text-decoration: none;
 }
 
+/*
+    Visited Anchor selector
+    Changes link text color slightly to indicate that a section has already been visited via the link
+*/
+a:visited
+{
+    color: bisque;
+}
+
 p {
     font-size: 16px;
 }
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /*
-    Special formatting for the "SEO" pun in "Horiseon"
-    Class selector used as this may be used elsewhere on the webpage
+    Special class selector for formatting the "SEO" pun in "Horiseon"
+    Class selector used as this may be used elsewhere on the webpage in future
 */
 .horiseon-seo-emphasized {
     color: #d9dcd6;
-    font-weight: 100;
+    font-weight: 100; /* Unbolded effect added to help the pun stand out for users with limited vision or display capability */
     font-style: normal;
 }
 
@@ -56,6 +73,10 @@ nav {
     display: inline-block;
 }
 
+/*
+    Leading (banner) image selector
+    Handles <hr> spacing and image and removes default border to retain original appearance
+*/
 #leading-image {
     height: 800px;
     width: 100%;
@@ -66,12 +87,18 @@ nav {
     border-style: none;
 }
 
+/*
+    Services section selector
+*/
 #services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*
+    Service subsection selector
+*/
 .service {
     margin-bottom: 20px;
     padding: 50px;
@@ -81,27 +108,40 @@ nav {
     color: #ffffff;
 }
 
-.service figure figcaption h2 {
+/*
+    Service header selector
+*/
+.service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.service figure img {
+/*
+    Service image selector
+*/
+.service img {
     max-height: 200px;
     display: inline;
 }
 
- /* Class selectors that determine which side of the service box that the image should be floated on */
+/*
+    Service image class selectors
+    Determines which side of the service box that the image should be floated on
+*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Ditto */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*
+    Benefits section selector
+*/
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -113,17 +153,26 @@ nav {
     background-color: #2589bd;
 }
 
+/*
+    Benefit subsection selector
+*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*
+    Benefit header selector
+*/
 .benefit h2 {
     font-size: 1.17em;
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*
+    Benefit image selector
+*/
 .benefit img {
     display: block;
     margin: 10px auto;
@@ -137,6 +186,10 @@ footer {
     text-align: center;
 }
 
+/*
+    Footer header selector
+    Used in webpage credits
+*/
 footer h2 {
     font-size: 20px;
 }
