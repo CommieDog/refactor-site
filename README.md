@@ -4,7 +4,7 @@
 
 This project was undertaken for a marketing agency client who wanted to refactor their website codebase to meet basic accessibility standards. The client wanted the basic look-and-feel of the website unchanged; the changes made "under the hood" aimed to perserve the website for unimpared human users while being more accessible to impared users and search engines.
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](https://github.com/CommieDog/refactor-site/blob/main/assets/website-mockup.png)
+![Mockup of original website design.](https://github.com/CommieDog/refactor-site/blob/main/assets/website-mockup.png)
 
 A sample deployment of the website is available on [GitHub Pages](https://commiedog.github.io/refactor-site/).
 
@@ -22,7 +22,9 @@ A sample deployment of the website is available on [GitHub Pages](https://commie
 A substantial portion of the work involved adding semantic HTML to the webpage. The final product makes use of several semantic HTML elements such as `<header>`, `<footer>`, and `<section>`. Elements within sections were reordered in a logical fashion, while their layouts were modified to match the original layout of the webpage via CSS properties. Header elements were reclassified to match good practice and images were given alternate descriptors. Finally, a refactoring of the webpage's CSS file was undertaken, simplifying selector criteria and adding comments.
 
 ### Sample of HTML Refactoring
+
 #### Before
+
 ```HTML
 <div class="search-engine-optimization">
     <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
@@ -33,6 +35,7 @@ A substantial portion of the work involved adding semantic HTML to the webpage. 
 </div>
 ```
 #### After
+
 ```HTML
 <section id="search-engine-optimization" class="service image-on-left">
     <h2>Search Engine Optimization</h2>
