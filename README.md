@@ -10,20 +10,30 @@ A sample deployment of the website is available on [GitHub Pages](A).
 
 If your README is very long, add a table of contents to make it easy for users to find what they need.
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
+* [Description](#description)
+* [Features](#features)
+* [Future Work](#future-work)
 * [License](#license)
 
 
 ## Description
 
-A substantial portion of the work involved adding semantic HTML to the webpage. The final product makes use of several semantic HTML elements such as `<header>`, `<footer>`, and `<section>`. Elements within sections were reordered in a logical fashion, while their layouts were modified to match the original layout of the webpage via CSS properties. Header elements wwere reclassified to match good practice and images were given alternate descriptors. Finally, a refactoring of the CSS stylesheet was undertaken, simplifying selector criteria and adding comments.
+A substantial portion of the work involved adding semantic HTML to the webpage. The final product makes use of several semantic HTML elements such as `<header>`, `<footer>`, and `<section>`. Elements within sections were reordered in a logical fashion, while their layouts were modified to match the original layout of the webpage via CSS properties. Header elements were reclassified to match good practice and images were given alternate descriptors. Finally, a refactoring of the webpage's CSS file was undertaken, simplifying selector criteria and adding comments.
 
 
 ## Features
 
-If your project has a lot of features, consider adding a heading called "Features" and listing them there.
+* Addition of `<title>` element
+* Proper use of semantic HTML
+    * Added `<header>` element, complete with included `<nav>` element
+    * Added `<main>` element
+    * Replaced nonsemantic `<div>` elements with `<section>`
+    * Wrapped images in `<figure>`
+    * Added `<footer>` element
+* Logical ordering of content within both the Service and Benefit subsections
+* Proper numbering for header elements
+* Images with alternate descriptors
+* Extensive use of CSS positioning properties, such as `float`, `display`, and `position`, to display elements in a more appealing manner
 
 
 ## Future Work
