@@ -109,35 +109,14 @@ nav {
     position: relative;
 }
 
-/*
-    Service header selector
-*/
 .service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*
-    Service image selector
-*/
 .service img {
     max-height: 200px;
     display: inline;
-}
-
-/*
-    Service image class selectors
-    Determines which side of the service box that the image should be floated on
-*/
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/* Ditto */
-.float-left {
-    float: left;
-    margin-right: 25px;
 }
 
 .image-on-left h2 {
@@ -200,18 +179,12 @@ nav {
     color: #ffffff;
 }
 
-/*
-    Benefit header selector
-*/
 .benefit h2 {
     font-size: 1.17em;
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*
-    Benefit image selector
-*/
 .benefit img {
     display: block;
     margin: 10px auto;
