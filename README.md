@@ -21,6 +21,30 @@ A sample deployment of the website is available on [GitHub Pages](https://commie
 
 A substantial portion of the work involved adding semantic HTML to the webpage. The final product makes use of several semantic HTML elements such as `<header>`, `<footer>`, and `<section>`. Elements within sections were reordered in a logical fashion, while their layouts were modified to match the original layout of the webpage via CSS properties. Header elements were reclassified to match good practice and images were given alternate descriptors. Finally, a refactoring of the webpage's CSS file was undertaken, simplifying selector criteria and adding comments.
 
+### Sample of HTML Refactoring
+#### Before
+```HTML
+<div class="search-engine-optimization">
+    <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+    <h2>Search Engine Optimization</h2>
+    <p>
+        The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+    </p>
+</div>
+```
+#### After
+```HTML
+<section id="search-engine-optimization" class="service image-on-left">
+    <h2>Search Engine Optimization</h2>
+    <p>
+        The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+    </p>
+    <figure>
+        <img src="./assets/images/search-engine-optimization.jpg" alt="Search engine optimization diagram on notebook"/>
+    </figure>
+</section>
+```
+
 
 ## Features
 
