@@ -37,6 +37,12 @@ A substantial portion of the work involved adding semantic HTML to the webpage. 
 * Extensive use of CSS positioning properties, such as `float`, `display`, and `position`, to display content
 
 
+## Technologies Used
+
+* HTML
+* CSS
+
+
 ## Future Work
 
 Future work on this project would likely come in the form of improved accessibility, partucularly for users with small screen sizes. The basic layout of the webpage is not stable when squeezed into small sizes, and a few visual elements are too indistinct even for nonimpared users to notice. The Benefits section in particular would benefit from the use of flexboxes.
