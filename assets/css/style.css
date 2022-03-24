@@ -159,6 +159,25 @@ nav {
     top: 50px;
 }
 
+.image-on-right h2 {
+    position: absolute;
+    left: 50px;
+    margin-right: 375px;
+}
+
+.image-on-right p {
+    position: absolute;
+    left: 50px;
+    top: 114px;
+    margin-right: 375px;
+}
+
+.image-on-right img {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
 /*
     Benefits section selector
 */
