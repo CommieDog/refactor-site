@@ -140,16 +140,23 @@ nav {
     margin-right: 25px;
 }
 
-.shift-right {
+.image-on-left h2 {
     position: absolute;
     left: 375px;
-    padding-right: 50px;
+    margin-right: 50px;
 }
 
-.shift-down {
+.image-on-left p {
     position: absolute;
+    left: 375px;
     top: 114px;
-    padding-right: 50px;
+    margin-right: 50px;
+}
+
+.image-on-left img {
+    position: absolute;
+    left: 50px;
+    top: 50px;
 }
 
 /*
