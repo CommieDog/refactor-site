@@ -4,6 +4,8 @@
 
 This project was undertaken for a marketing agency client who wanted to refactor their website codebase to meet basic accessibility standards. The client wanted the basic look-and-feel of the website unchanged; the changes made "under the hood" aimed to perserve the website for unimpared human users while being more accessible to impared users and search engines.
 
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/website-mockup.png)
+
 A sample deployment of the website is available on [GitHub Pages](A).
 
 ## Table of Contents
@@ -33,7 +35,7 @@ A substantial portion of the work involved adding semantic HTML to the webpage. 
 * Logical ordering of content within both the Service and Benefit subsections
 * Proper numbering for header elements
 * Images with alternate descriptors
-* Extensive use of CSS positioning properties, such as `float`, `display`, and `position`, to display elements in a more appealing manner
+* Extensive use of CSS positioning properties, such as `float`, `display`, and `position`, to display content
 
 
 ## Future Work
