@@ -6,11 +6,10 @@ This project was undertaken for a marketing agency client who wanted to refactor
 
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/website-mockup.png)
 
-A sample deployment of the website is available on [GitHub Pages](A).
+A sample deployment of the website is available on [GitHub Pages](https://commiedog.github.io/refactor-site/).
+
 
 ## Table of Contents
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
 
 * [Description](#description)
 * [Features](#features)
